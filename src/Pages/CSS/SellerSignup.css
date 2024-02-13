@@ -1,0 +1,68 @@
+
+
+.seller-registration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:#fce3fe;
+  }
+  
+  .seller-registration-container {
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .seller-registration h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .seller-registration-fields input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .seller-registration-fields button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .seller-registration-fields button:hover {
+    background-color: #45a049;
+  }
+  
+  .seller-registration-login {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .seller-registration-login span {
+    color: #1e90ff;
+    cursor: pointer;
+  }
+  
+  .seller-registration-agree {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .seller-registration-agree input {
+    margin-right: 8px;
+  }
+  
+ 
+  

@@ -71,3 +71,20 @@ nav.login_cart button:active{
     background:orange;
     color: black;
 }
+.supplier-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .supplier-dropdown a {
+    text-decoration: none;
+    color: black; 
+    padding: 10px 15px; 
+    display: block;
+    font-weight: 600;
+    font-family: 'poppins';
+    cursor: pointer;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    background:gainsboro;
+  }
