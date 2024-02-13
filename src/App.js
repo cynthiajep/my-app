@@ -36,4 +36,7 @@ function App() {
   );
 }
 
+//const IDENTITY_PROVIDER = `http://dzh22-nuaaa-aaaaa-qaaoa-cai.localhost:4943/#authorize`;
+
+
 export default App;
