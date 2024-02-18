@@ -1,4 +1,4 @@
-
+/* 
 
 .seller-registration {
     display: flex;
@@ -65,4 +65,79 @@
   }
   
  
+   */
+
+
+
+
+   .seller-registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .seller-registration-container {
+    max-width: 500px;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .seller-registration-fields input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .seller-registration-agree {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .seller-registration-agree input {
+    margin-right: 10px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  .seller-registration-login span {
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  /* Shop Details Styles */
+  .shop-details {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .shop-details h2 {
+    margin-bottom: 15px;
+  }
+  
+  .shop-details p {
+    margin: 5px 0;
+  }
   
