@@ -1,0 +1,101 @@
+
+
+.loginsignup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4; 
+  }
+  
+  .loginsignup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .loginsignup-container h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .loginsignup-container p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  
+  .product-section {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .product-section button {
+    background-color: #3498db; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+ 
+  .product-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .product-list-item {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .product-list-item img {
+    width: 100px; 
+    height: 80px; 
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .product-list-item div {
+    flex-grow: 1;
+  }
+  
+  .product-list-item p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .product-list-item button {
+    background-color: #e74c3c; 
+    color: #fff;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+  }
+  

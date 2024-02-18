@@ -1,5 +1,6 @@
 import React from 'react'
 import './CSS/LoginSignup.css'
+import { Link } from 'react-router-dom';
 
 
 
@@ -14,7 +15,8 @@ const LoginSignup = () => {
           <input type="password" placeholder='Password'/>
         </div>
         <button>Continue</button>
-        <p className="loginsignup-login">Existing account? <span>Login</span></p>
+        {/* <p className="loginsignup-login">Existing account? <span>Login</span></p> */}
+        <p className="loginsignup-login">Existing account? <span><Link to="/ulogin">Login</Link></span></p>
         <div className="loginsignup-agree">
           <input type="checkbox" name='' id=''/>
           <p>By continuing I agree to terms and conditions</p>

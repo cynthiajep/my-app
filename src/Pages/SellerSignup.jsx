@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './CSS/SellerSignup.css';
 
 const SellerSignup = () => {
@@ -13,7 +14,12 @@ const SellerSignup = () => {
           <input type="password" placeholder='Password'/>
         </div>
         <button>Create Seller Account</button>
-        <p className="seller-registration-login">Already a seller? <span>Login</span></p>
+        
+        
+        <p className="seller-registration-login">
+          Already a seller? <Link to="/slogin">Login</Link>
+        </p>
+        
         <div className="seller-registration-agree">
           <input type="checkbox" name='' id=''/>
           <p>By registering, I agree to the terms and conditions for sellers.</p>
@@ -24,3 +30,6 @@ const SellerSignup = () => {
 }
 
 export default SellerSignup;
+
+
+
