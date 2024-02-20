@@ -1,70 +1,68 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Aureum
 
-## Available Scripts
 
-In the project directory, you can run:
+## Project Structure
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. `backend` - Contains the backend canister code for marketplace logic and user data management.
+2. `frontend` - Houses the frontend code; serves as the asset canister for the project.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Prerequisites
 
-### `npm test`
+- Node.js (version 18 recommended)
+- DFX (version 0.15.0 recommended)
+- Internet access for downloading dependencies and deploying canisters.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Local Development Setup
 
-### `npm run build`
+Follow these steps to set up the Aureum project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start by cloning the Aureum repository to your local machine.
+ ```sh
+git clone https://github.com/cynthiajep/my-app.git
+   ```
+### 2. Start the Local Internet Computer Replica
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Navigate to the root directory of the cloned repository and switch to the master branch:
+   ```sh
+   cd my-app
+   ```
+    ```sh
+   git switch master
+   ```
+2. Run the following command to start a local Internet Computer replica in the background:
+   ```sh
+   dfx start --background
+   ```
 
-### `npm run eject`
+### 3. Setup 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Install necessary dependencies:
+   ```sh
+   npm install
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4. Deploy 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Deploy the canisters to the local Internet Computer replica:
+   ```sh
+   dfx deploy
+   ```
+3. (Optional) Generate necessary artifacts:
+   ```sh
+   dfx generate
+   ```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 6. Access the Application
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After deploying the frontend canister, use the provided URL to access the application in your browser.
 
-### Code Splitting
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

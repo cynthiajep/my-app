@@ -5,6 +5,9 @@
   "app": {
     "local": "dlbnd-beaaa-aaaaa-qaana-cai"
   },
+  "backend": {
+    "local": "dqerg-34aaa-aaaaa-qaapq-cai"
+  },
   "internet_identity": {
     "local": "dzh22-nuaaa-aaaaa-qaaoa-cai"
   }
