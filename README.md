@@ -62,6 +62,7 @@ git clone https://github.com/cynthiajep/my-app.git
 
 After deploying the frontend canister, use the provided URL to access the application in your browser.
 
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
