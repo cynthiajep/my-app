@@ -1,5 +1,26 @@
 
-## Aureum
+## Aureum - E-Commerce MVP on Internet Computer Protocol
+
+## Overview
+This repository contains the codebase for an MVP (Minimum Viable Product) of an e-commerce platform built using Azle, React, and JavaScript to be deployed on the Internet Computer Protocol. The MVP aims to demonstrate core functionalities of an e-commerce platform including product management, user management, shopping cart, order management, and checkout.
+
+## Features
+The MVP includes the following core functionalities:
+- **Product Management**: Allows administrators to add, edit, and remove products, and users to view product details and search/filter products.
+- **User Management**: Enables users to register, login, update their profile, and view their order history.
+- **Shopping Cart**: Provides users with the ability to add/remove items to/from their cart, update item quantities, and view the cart summary.
+- **Order Management**: Allows users to place orders, view order details, track order status, and update order status.
+- **Checkout**: Facilitates secure payment processing and order confirmation.
+
+## Technologies Used
+- **Azle**: Frontend framework specifically designed for building applications on the Internet Computer Protocol.
+- **React**: JavaScript library for building user interfaces.
+- **Internet Computer Protocol**: A blockchain-based decentralized computing platform that serves as the backend infrastructure.
+- **JavaScript**: Programming language used for frontend logic and interactions.
+- **HTML/CSS**: Standard markup and styling languages for building web interfaces.
+
+## Getting Started
+To run the application locally or deploy it on the Internet Computer Protocol, follow these steps:
 
 
 ## Project Structure
@@ -18,11 +39,7 @@
 
 Follow these steps to set up the Aureum project locally:
 
-### 1. Clone the Repository
-
-Start by cloning the Aureum repository to your local machine.
- ```sh
-git clone https://github.com/cynthiajep/my-app.git
+#
    ```
 ### 2. Start the Local Internet Computer Replica
 
